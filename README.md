@@ -1,30 +1,20 @@
 # Multimodal Sarcasm Detection Based on Multimodal Sentiment Co-training
 
-Sarcasm detection is a difficult task in sentiment analysis because sarcasm often includes both positive and negative sentiments, making it difficult to identify. In recent years, visual information has been used to study sarcasm in social media data. Based on sentiment contrast in image and text, this paper proposes a multimodal sentiment and sarcasm classification gradient co-training (MSSGC) model to explicitly learn image and text sentimental features from image and text sentiment datasets and integrates a cross-modal fusion module for multimodal sarcasm detection. 
+Sarcasm detection is a difficult task in sentiment analysis because sarcasm often includes both positive and negative sentiments, making it difficult to identify. In recent years, visual information has been used to study sarcasm in social media data. Based on sentiment contrast in image and text, this paper proposes a multimodal sentiment and sarcasm classification gradient co-training (MSSGC) model to explicitly learn image and text sentimental features from image and text sentiment datasets.
 
 # Usage
 
 - ##### The  config parameters setting during model training and testing
 
   ```yaml
-  model_output: 2   					##two or three classification 
-  epoch: 30         					##the epoches of training
-  batch: 32         					## the batch sizes of training
+  epoch: 10         					## the epoches of training
+  batch: 16         					## the batch sizes of training
   positive_se : 0.2 					## the positive sentence in Sp(only use in Sp-SPC)
-  lr: 0.00001       					## the learning rate of Amda 
-  clean_tag: 'neutral'        ## Two classification filter the neutral out
-  class: ["negative","positive"]  ## Two classificatioin
-  #clean_tag: ''        ## Three classification filter the neutral out
-  #class: ["negative","positive","neutral"]  ## Three classificatioin
-  UNCASED: "../../transformers/bertweet-base" ##bertweet local path
+  lr: 1e-5      					    ## the learning rate of Amda
+  UNCASED: "../../transformers/bert-base-uncased"   ## bert local path
   VOCAB: 'vocab.txt'
   path: "2022-4-12"            ##save model checkpoint,log,result dictory
   start_dir: "../data/SemEval2017-Task1/train_data" ## The  dictory of train dataset
-  dataset:
-    senti_train: []
-    senti_test: ["../data/SemEval2017-Task1/test_data/SemEval2017-task4-test.subtask-A.english.txt"]   
-    sms_train: ["../data/SemEval2018-Task3/train_data/sar_train.txt"]
-    sms_test: ["../data/SemEval2018-Task3/test_data/sar_test.txt"]
     
   ```
 
