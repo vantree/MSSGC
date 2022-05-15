@@ -36,13 +36,6 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 * SemEval-2017 task4: raw data downloaded from: [link](https://alt.qcri.org/semeval2017/)
 * Image sentiment data from tweets: collected by the author [Quanzeng You](https://qzyou.github.io/)
 
-- ## My Pre-processing Steps:
-
-1. detect language, filter out non-english tweets
-2. lexical normalization
-3. filter out duplicate tweets across datasets
-4. up-sampling target datasets
-
 
 # Requirement
 
