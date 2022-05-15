@@ -34,7 +34,7 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 
 Download pretrained BERT-Base from [here](https://huggingface.co/bert-base-uncased/tree/main) and put it in [this directory](resource/transformers).
 
-Download pretrained ResNet-152 from [here](https://download.pytorch.org/models/resnet152-394f9c45.pth), rename the binary file as 'resnet152.pth' and put it in [this directory](resource/resnet).
+Download pretrained ResNet-152 from [here](https://download.pytorch.org/models/resnet152-394f9c45.pth), rename the binary file as "resnet152.pth" and put it in [this directory](resource/resnet).
 
 
 # Data
