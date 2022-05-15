@@ -78,13 +78,13 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 
 # Requirement
 
-Pytorch >=1.10
+Torch >= 1.10.0
+
+Torchvision >= 0.11.1
+
+Transformers >= 4.14.1
 
 numpy >= 1.21.4
 
-seaborn >= 0.11
-
-Matplotlib >= 3.5.1
-
-Pandas >= 1.3.5
+tqdm >= 4.62.3
 
