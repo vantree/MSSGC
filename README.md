@@ -48,13 +48,13 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 
   
 
-- Encoding Feature Visualization
+- Training the MTL model
 
-  ```bash
-  Generate_picture.ipynb
+  ```
+  python mtl.py
   ```
 
-- Traning
+- Traning the MSSGC model
 
   ```
   python main.py
