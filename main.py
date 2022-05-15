@@ -34,7 +34,7 @@ parser.add_argument('--senti_weight', type=float, default=0.3)
 parser.add_argument('--mlp_hidden_size', type=int, default=2816)
 parser.add_argument('--mlp_num_hidden_layer', type=int, default=2)
 parser.add_argument('--fusion', type=str, default='concat', choices=('text', 'image', 'concat'))
-parser.add_argument('--lm', type=str, default='bert', choices=('bert', 'roberta'))
+parser.add_argument('--lm', type=str, default='bert', choices=('bert'))
 parser.add_argument('--use_optimize', action='store_true', default=True)
 parser.add_argument('--freeze_bert', action='store_true', default=False)
 parser.add_argument('--freeze_resnet', action='store_true', default=False)
@@ -63,7 +63,6 @@ image_data_loader = DataLoader(image_corpus.train, batch_size=args.bs, collate_f
 
 lm_path = {
     'bert': '/home/resource/models/transformers/bert-base-uncased',
-    'roberta': '/home/resource/models/transformers/roberta-base',
 }
 
 device = torch.device(args.cuda)
