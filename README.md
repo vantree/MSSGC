@@ -67,7 +67,7 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 3. Image sentiment data from tweets: collected by the author [Quanzeng You](https://qzyou.github.io/)
 
 
-# Requirement
+## Requirement
 
 - Torch >= 1.10.0
 - Torchvision >= 0.11.1
