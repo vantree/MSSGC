@@ -18,36 +18,6 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
     
   ```
 
-  
-
-- ##### The procession of training and testing
-
-  ```bash
-  cd SPC && bash -x start.sh
-  cd MLT && bash -x start.sh
-  cd SPC_S && bash -x start.sh
-  cd Sp_SPC && bash -x start.sh
-  ```
-
-- ##### The analysis of experiments in all model
-
-  ```bash
-  cd SPC/path(config file define) && python3 RA.py
-  cd MLT/path(config file define) && python3 RA.py
-  cd SPC_S/path(config file define) && python3 RA.py
-  cd Sp_SPC/path(config file define) && python3 RA.py
-  ```
-
-- Weight $\alpha$ in the Sp Task  
-
-  ```bash
-  - python3 run.py
-  - cd path/2(3)
-  - python3 weighted.py
-  ```
-
-  
-
 - Training the MTL model
 
   ```
