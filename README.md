@@ -30,6 +30,13 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
   python main.py
   ```
 
+# Pretrained Models
+
+Download pretrained BERT-Base from [here](https://huggingface.co/bert-base-uncased/tree/main) and put it in [this directory](resources/transformers).
+
+Download pretrained ResNet-152 from [here](https://download.pytorch.org/models/resnet152-394f9c45.pth), rename the binary file as "resnet152.pth" and put it in [this directory](resources/resnet).
+
+
 # Data
 
 * Multimodal sarcasm dataset: raw data downloaded from: [link](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
