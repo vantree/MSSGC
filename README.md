@@ -72,7 +72,7 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 
 ## Data
 
-- SemEval-2017 task4
+- SemEval-2017 task4: raw data downloaded from: [link](https://alt.qcri.org/semeval2017/)
 - Multimodal sarcasm dataset: raw data downloaded from: [link](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
 
 # Requirement
