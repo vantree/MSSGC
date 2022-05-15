@@ -15,6 +15,7 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
   senti_weight: 0.3            ## the weight of sentiment loss
   mlp_hidden_size: 2816        ## the hidden size of fusion module MLP
   mlp_hidden_layer: 2          ## the hidden layers of fusion module MLP
+  fusion: 'concat'             ## the way of fusion text-image features for MSD samples
   ```
 
 - Training the MTL model
