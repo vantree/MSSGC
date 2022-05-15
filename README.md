@@ -10,8 +10,8 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
   epoch: 10       ## the epochs of training
   bs: 16          ## the batch size of training
   lr: 1e-5        ## the learning rate of Adam
-  update_linear_lr: 3e-4      ## update step \beta
-  update_embedding_lr: 1e-5   ## update step \alpha
+  update_linear_lr: 3e-4      ## update step $\beta$
+  update_embedding_lr: 1e-5   ## update step $\alpha$
   senti_weight: 0.3           ## the weight of sentiment loss
   mlp_hidden_size: 2816       ## the hidden size of fusion module MLP
   mlp_hidden_layer: 2         ## the hidden layers of fusion module MLP
