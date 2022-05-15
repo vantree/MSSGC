@@ -7,9 +7,9 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 - ##### The  config parameters setting during model training and testing
 
   ```yaml
-  epoch: 10         	## the epoches of training
-  bs: 16         			## the batch sizes of training
-  lr: 1e-5      			## the learning rate of Adam
+  epoch: 10       ## the epoches of training
+  bs: 16          ## the batch sizes of training
+  lr: 1e-5        ## the learning rate of Adam
   ```
 
 - Training the MTL model
