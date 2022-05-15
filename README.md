@@ -66,6 +66,14 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 2. SemEval-2017 task4: raw data downloaded from: [link](https://alt.qcri.org/semeval2017/)
 3. Image sentiment data from tweets: collected by the author [Quanzeng You](https://qzyou.github.io/)
 
+
+# Pretrained Models
+
+Download pretrained BERT-Base from [here](https://huggingface.co/bert-base-uncased/tree/main) and put it in [this directory](resources/transformers).
+
+Download pretrained ResNet-152 from [here](https://download.pytorch.org/models/resnet152-394f9c45.pth), rename the binary file as "resnet152.pth" and put it in [this directory](resources/resnet).
+
+
 # Requirement
 
 - Torch >= 1.10.0
