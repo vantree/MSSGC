@@ -54,13 +54,13 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
   Generate_picture.ipynb
   ```
 
-- Case Study
+- Traning
 
   ```
-  python3 example.py
+  python main.py
   ```
 
-## Data
+# Data
 
 1. Multimodal sarcasm dataset: raw data downloaded from: [link](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
 2. SemEval-2017 task4: raw data downloaded from: [link](https://alt.qcri.org/semeval2017/)
