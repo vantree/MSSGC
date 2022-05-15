@@ -65,7 +65,7 @@ image_corpus = load_image_corpus('/home/resource/MSD')
 image_data_loader = DataLoader(image_corpus.train, batch_size=args.bs, collate_fn=list, shuffle=True)
 
 lm_path = {
-    'bert': '/home/resource/models/transformers/bert-base-uncased',
+    'bert': '/resource/transformers/bert-base-uncased',
 }
 
 device = torch.device(args.cuda)
@@ -144,7 +144,7 @@ for epoch in range(1, args.epochs + 1):
     if recall_text > best_recall_text:
         print('best text epoch: ', epoch)
         best_recall_text = recall_text
-        # save_path = '/home/data1/liuyi/mtl.pt'
+        # save_path = '/home/data1/liuyi/text.pt'
         # torch.save(model.state_dict(), save_path)
     del loss_text, recall_text, f1_pn_text, accuracy_text
     torch.cuda.empty_cache()
@@ -158,7 +158,7 @@ for epoch in range(1, args.epochs + 1):
     if f1_score_image > best_f1_image:
         print('best image epoch: ', epoch)
         best_f1_image = f1_score_image
-        # save_path = '/home/data/syd/MSD/mm/isa_t2i2_linear12.pt'
+        # save_path = '/home/data1/liuyi/image.pt'
         # torch.save(model.state_dict(), save_path)
     del loss_image, f1_score_image, precision_image, recall_image, accuracy_image
     torch.cuda.empty_cache()
