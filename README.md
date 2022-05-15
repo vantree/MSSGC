@@ -8,7 +8,7 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 
   ```yaml
   epoch: 10       ## the epochs of training
-  bs: 16          ## the batch sizes of training
+  bs: 16          ## the batch size of training
   lr: 1e-5        ## the learning rate of Adam
   update_linear_lr: 3e-4      ## update step \alpha
   update_embedding_lr: 1e-5   ## update step \beta
