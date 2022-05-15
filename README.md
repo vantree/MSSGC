@@ -39,9 +39,9 @@ Download pretrained ResNet-152 from [here](https://download.pytorch.org/models/r
 
 # Data
 
-* Multimodal sarcasm dataset: raw data downloaded from: [link](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
-* SemEval-2017 task4: raw data downloaded from: [link](https://alt.qcri.org/semeval2017/)
-* Image sentiment data from tweets: collected by the author [Quanzeng You](https://qzyou.github.io/)
+1. Multimodal sarcasm dataset: raw data downloaded from: [link](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
+2. SemEval-2017 task4: raw data downloaded from: [link](https://alt.qcri.org/semeval2017/)
+3. Image sentiment data from tweets: collected by the author [Quanzeng You](https://qzyou.github.io/)
 
 
 # Requirement
