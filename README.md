@@ -16,8 +16,8 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
   mlp_hidden_size: 2816        ## the hidden size of fusion module MLP
   mlp_hidden_layer: 2          ## the hidden layers of fusion module MLP
   fusion: 'concat'             ## the way of fusion text-image features for MSD samples
-  freeze_bert: False           ## 
-  freeze_resnet: False         ## 
+  freeze_bert: False           ## whether to update the parameters of BERT during training
+  freeze_resnet: False         ## whether to update the parameters of ResNet during training
   ```
 
 - Training the MTL model
