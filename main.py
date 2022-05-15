@@ -62,7 +62,7 @@ image_corpus = load_image_corpus('/home/resource/MSD')
 image_data_loader = DataLoader(image_corpus.train, batch_size=args.bs, collate_fn=list, shuffle=True)
 
 lm_path = {
-    'bert': '/home/resource/models/transformers/bert-base-uncased',
+    'bert': '/resource/transformers/bert-base-uncased',
 }
 
 device = torch.device(args.cuda)
