@@ -1,6 +1,6 @@
 # Multimodal Sarcasm Detection Based on Multimodal Sentiment Co-training
 
-Sarcasm detection is a difficult task in sentiment analysis because sarcasm often includes both positive and negative sentiments, making it difficult to identify. In recent years, visual information has been used to study sarcasm in social media data. Based on sentiment contrast in image and text, this paper proposes a multimodal sentiment and sarcasm classification gradient co-training (MSSGC) model. The model uses text and image feature sharing networks to explicitly learn image and text sentimental features from image and text sentiment datasets and integrates a cross-modal fusion module for multimodal sarcasm detection. 
+Sarcasm detection is a difficult task in sentiment analysis because sarcasm often includes both positive and negative sentiments, making it difficult to identify. In recent years, visual information has been used to study sarcasm in social media data. Based on sentiment contrast in image and text, this paper proposes a multimodal sentiment and sarcasm classification gradient co-training (MSSGC) model to explicitly learn image and text sentimental features from image and text sentiment datasets and integrates a cross-modal fusion module for multimodal sarcasm detection. 
 
 # Usage
 
