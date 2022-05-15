@@ -290,7 +290,7 @@ def _resnet(
 ) -> ResNet:
     model = ResNet(block, layers, **kwargs)
     if pretrained:
-        state_dict = torch.load(f'/home/resource/models/resnet/{arch}.pth')
+        state_dict = torch.load(f'/resource/resnet/{arch}.pth')
         model.load_state_dict(state_dict)
     return model
 
