@@ -7,15 +7,9 @@ Sarcasm detection is a difficult task in sentiment analysis because sarcasm ofte
 - ##### The  config parameters setting during model training and testing
 
   ```yaml
-  epoch: 10         					## the epoches of training
-  batch: 16         					## the batch sizes of training
-  positive_se : 0.2 					## the positive sentence in Sp(only use in Sp-SPC)
-  lr: 1e-5      					    ## the learning rate of Amda
-  UNCASED: "../../transformers/bert-base-uncased"   ## bert local path
-  VOCAB: 'vocab.txt'
-  path: "2022-4-12"            ##save model checkpoint,log,result dictory
-  start_dir: "../data/SemEval2017-Task1/train_data" ## The  dictory of train dataset
-    
+  epoch: 10         	## the epoches of training
+  bs: 16         			## the batch sizes of training
+  lr: 1e-5      			## the learning rate of Adam
   ```
 
 - Training the MTL model
